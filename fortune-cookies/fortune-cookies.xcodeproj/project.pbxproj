@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAE8FC371F05AB020010B781 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CAE8FC361F05AB020010B781 /* main.c */; };
+		CA250BDD1F05EAAB009774EB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA250BDC1F05EAAB009774EB /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CAE8FC311F05AB020010B781 /* CopyFiles */ = {
+		CA250BD71F05EAAB009774EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CAE8FC331F05AB020010B781 /* learning-head-first-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "learning-head-first-c"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAE8FC361F05AB020010B781 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CA250BD91F05EAAB009774EB /* fortune-cookies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fortune-cookies"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA250BDC1F05EAAB009774EB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CAE8FC301F05AB020010B781 /* Frameworks */ = {
+		CA250BD61F05EAAB009774EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CAE8FC2A1F05AB020010B781 = {
+		CA250BD01F05EAAB009774EB = {
 			isa = PBXGroup;
 			children = (
-				CAE8FC351F05AB020010B781 /* learning-head-first-c */,
-				CAE8FC341F05AB020010B781 /* Products */,
+				CA250BDB1F05EAAB009774EB /* fortune-cookies */,
+				CA250BDA1F05EAAB009774EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CAE8FC341F05AB020010B781 /* Products */ = {
+		CA250BDA1F05EAAB009774EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAE8FC331F05AB020010B781 /* learning-head-first-c */,
+				CA250BD91F05EAAB009774EB /* fortune-cookies */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAE8FC351F05AB020010B781 /* learning-head-first-c */ = {
+		CA250BDB1F05EAAB009774EB /* fortune-cookies */ = {
 			isa = PBXGroup;
 			children = (
-				CAE8FC361F05AB020010B781 /* main.c */,
+				CA250BDC1F05EAAB009774EB /* main.c */,
 			);
-			path = "learning-head-first-c";
+			path = "fortune-cookies";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAE8FC321F05AB020010B781 /* learning-head-first-c */ = {
+		CA250BD81F05EAAB009774EB /* fortune-cookies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAE8FC3A1F05AB020010B781 /* Build configuration list for PBXNativeTarget "learning-head-first-c" */;
+			buildConfigurationList = CA250BE01F05EAAB009774EB /* Build configuration list for PBXNativeTarget "fortune-cookies" */;
 			buildPhases = (
-				CAE8FC2F1F05AB020010B781 /* Sources */,
-				CAE8FC301F05AB020010B781 /* Frameworks */,
-				CAE8FC311F05AB020010B781 /* CopyFiles */,
+				CA250BD51F05EAAB009774EB /* Sources */,
+				CA250BD61F05EAAB009774EB /* Frameworks */,
+				CA250BD71F05EAAB009774EB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "learning-head-first-c";
-			productName = "learning-head-first-c";
-			productReference = CAE8FC331F05AB020010B781 /* learning-head-first-c */;
+			name = "fortune-cookies";
+			productName = "fortune-cookies";
+			productReference = CA250BD91F05EAAB009774EB /* fortune-cookies */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CAE8FC2B1F05AB020010B781 /* Project object */ = {
+		CA250BD11F05EAAB009774EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Augusto Cesar";
 				TargetAttributes = {
-					CAE8FC321F05AB020010B781 = {
+					CA250BD81F05EAAB009774EB = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CAE8FC2E1F05AB020010B781 /* Build configuration list for PBXProject "learning-head-first-c" */;
+			buildConfigurationList = CA250BD41F05EAAB009774EB /* Build configuration list for PBXProject "fortune-cookies" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CAE8FC2A1F05AB020010B781;
-			productRefGroup = CAE8FC341F05AB020010B781 /* Products */;
+			mainGroup = CA250BD01F05EAAB009774EB;
+			productRefGroup = CA250BDA1F05EAAB009774EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAE8FC321F05AB020010B781 /* learning-head-first-c */,
+				CA250BD81F05EAAB009774EB /* fortune-cookies */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CAE8FC2F1F05AB020010B781 /* Sources */ = {
+		CA250BD51F05EAAB009774EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE8FC371F05AB020010B781 /* main.c in Sources */,
+				CA250BDD1F05EAAB009774EB /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CAE8FC381F05AB020010B781 /* Debug */ = {
+		CA250BDE1F05EAAB009774EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -174,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		CAE8FC391F05AB020010B781 /* Release */ = {
+		CA250BDF1F05EAAB009774EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,14 +215,14 @@
 			};
 			name = Release;
 		};
-		CAE8FC3B1F05AB020010B781 /* Debug */ = {
+		CA250BE11F05EAAB009774EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CAE8FC3C1F05AB020010B781 /* Release */ = {
+		CA250BE21F05EAAB009774EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -232,24 +232,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAE8FC2E1F05AB020010B781 /* Build configuration list for PBXProject "learning-head-first-c" */ = {
+		CA250BD41F05EAAB009774EB /* Build configuration list for PBXProject "fortune-cookies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAE8FC381F05AB020010B781 /* Debug */,
-				CAE8FC391F05AB020010B781 /* Release */,
+				CA250BDE1F05EAAB009774EB /* Debug */,
+				CA250BDF1F05EAAB009774EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAE8FC3A1F05AB020010B781 /* Build configuration list for PBXNativeTarget "learning-head-first-c" */ = {
+		CA250BE01F05EAAB009774EB /* Build configuration list for PBXNativeTarget "fortune-cookies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAE8FC3B1F05AB020010B781 /* Debug */,
-				CAE8FC3C1F05AB020010B781 /* Release */,
+				CA250BE11F05EAAB009774EB /* Debug */,
+				CA250BE21F05EAAB009774EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CAE8FC2B1F05AB020010B781 /* Project object */;
+	rootObject = CA250BD11F05EAAB009774EB /* Project object */;
 }

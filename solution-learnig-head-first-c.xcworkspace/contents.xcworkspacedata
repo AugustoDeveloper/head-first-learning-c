@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Chapter - 3">
+      <FileRef
+         location = "group:project-junkebox/project-junkebox.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:project-dysfunctional/project-dysfunctional.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chapter - 2">
+      <FileRef
+         location = "group:project-caso-bala-magica/project-caso-bala-magica.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:project-three-cards/project-three-cards.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:project-favorite-food/project-favorite-food.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:project-record-person-data/project-record-person-data.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:skip/skip.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:case-lethal-list/case-lethal-list.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:mating-game/mating-game.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:fortune-cookies/fortune-cookies.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:pirates-bermuda-rectangle/pirates-bermuda-rectangle.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chapter - 1">
+      <FileRef
+         location = "group:/Users/augustocesar/Documents/Projetos/xcode/Learning/learning-head-first-c/cards.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:functions-up-close/functions-up-close.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:mixed-messages/mixed-messages.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
