@@ -5,6 +5,12 @@
       location = "container:"
       name = "Chapter - 3">
       <FileRef
+         location = "group:project-geo2json/project-geo2json.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:project-juices/project-juices.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:project-junkebox/project-junkebox.xcodeproj">
       </FileRef>
       <FileRef
