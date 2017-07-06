@@ -5,6 +5,12 @@
       location = "container:"
       name = "Chapter - 3">
       <FileRef
+         location = "group:project-bermuda-tool/project-bermuda-tool.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:project-secret-messages/project-secret-messages.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:project-geo2json/project-geo2json.xcodeproj">
       </FileRef>
       <FileRef

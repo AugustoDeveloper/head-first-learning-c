@@ -22,6 +22,15 @@ int main(int argc, const char * argv[]) {
         } else {
             started = 1;
         }
+        if (latitude <-90 || latitude > 90) {
+            fprintf(stderr, "Latitude está com valor inválido %f\n", latitude);
+            return 2;
+        }
+        if (longitude < -180 || longitude > 180) {
+            fprintf(stderr, "Longitude está com valor inválido %f\n", longitude);
+            return 2;
+        }
+        
         info[strlen(info) - 1] = '\0';
         printf("{latitude: %f. longitude: %f, info: '%s'}", latitude, longitude, info);
     }
